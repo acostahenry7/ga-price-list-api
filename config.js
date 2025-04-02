@@ -3,7 +3,7 @@ var connections = require("./utils/sec/conProperties.js");
 
 module.exports = {
   app: {
-    port: process.env.PORT || 3002,
+    port: process.env.PRICELIST || 3002,
   },
   store: {
     sapSL: connections.sapSL.url,
